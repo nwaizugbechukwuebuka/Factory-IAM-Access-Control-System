@@ -7,7 +7,6 @@ import pytest
 
 from src.load_data import load_iam_data, validate_iam_data
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data"
 
@@ -100,10 +99,7 @@ def test_missing_required_column_is_detected():
 
     errors = validate_iam_data(datasets)
 
-    assert any(
-        "missing required column 'department'" in error
-        for error in errors
-    )
+    assert any("missing required column 'department'" in error for error in errors)
 
 
 def test_duplicate_assignment_ids_are_detected():
@@ -120,7 +116,4 @@ def test_duplicate_assignment_ids_are_detected():
 
     errors = validate_iam_data(datasets)
 
-    assert any(
-        "duplicate assignment_id" in error
-        for error in errors
-    )
+    assert any("duplicate assignment_id" in error for error in errors)
