@@ -1,0 +1,9 @@
+resource_id,resource_name,resource_type,department,requires_mfa,sensitivity
+RES001,Production Control System,Application,Production,true,High
+RES002,Machine Maintenance Portal,Application,Maintenance,true,Medium
+RES003,Quality Records Database,Database,Quality,true,High
+RES004,Financial Reporting System,Application,Finance,true,High
+RES005,Identity Administration Console,Application,IT,true,Critical
+RES006,Factory Operations Dashboard,Application,Operations,true,Medium
+RES007,Warehouse Inventory System,Application,Warehouse,true,Medium
+RES008,Employee Records Database,Database,HR,true,Critical

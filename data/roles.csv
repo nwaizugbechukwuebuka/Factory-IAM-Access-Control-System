@@ -1,0 +1,9 @@
+role_id,role_name,description,privilege_level
+R001,Production Operator,Operate assigned production equipment,Low
+R002,Maintenance Technician,Maintain and troubleshoot machinery,Medium
+R003,Quality Inspector,Review product quality records,Low
+R004,Finance Analyst,View and reconcile financial records,Medium
+R005,IT Support,Support user accounts and IT services,High
+R006,Security Administrator,Manage security controls and privileged access,Critical
+R007,Warehouse Operator,Manage inventory and warehouse records,Low
+R008,Factory Manager,Review operational reports and approve workflows,High

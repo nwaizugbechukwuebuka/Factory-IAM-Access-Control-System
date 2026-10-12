@@ -1,0 +1,11 @@
+user_id,full_name,department,employment_status,mfa_enabled,account_enabled,last_login
+U001,Ada Okafor,Production,Active,true,true,2026-10-10
+U002,Daniel Weber,Maintenance,Active,true,true,2026-10-09
+U003,Amara Eze,IT,Active,true,true,2026-10-11
+U004,Jonas Fischer,Finance,Active,false,true,2026-10-08
+U005,Chidi Nwosu,Production,Active,false,true,2026-09-15
+U006,Sofia Klein,Quality,Active,true,true,2026-10-10
+U007,Peter Müller,Contractor,Inactive,false,true,2026-08-30
+U008,Grace Adeyemi,IT,Active,true,true,2026-10-11
+U009,Michael Braun,Warehouse,Active,true,true,2026-10-07
+U010,Elena Petrova,Maintenance,Active,true,false,2026-09-20

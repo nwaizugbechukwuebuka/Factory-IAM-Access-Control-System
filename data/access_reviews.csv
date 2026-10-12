@@ -1,0 +1,9 @@
+review_id,assignment_id,reviewer_id,review_date,decision,justification
+REV001,A001,U008,2026-09-01,Approved,Required for production duties
+REV002,A002,U008,2026-09-01,Approved,Required for maintenance duties
+REV003,A003,U008,2026-09-02,Approved,Required for quality inspections
+REV004,A004,U008,2026-09-02,Approved,Required for finance reporting
+REV005,A005,U003,2026-09-03,Approved,Required for IT support
+REV006,A008,U008,2026-09-04,Revoked,Contractor assignment no longer required
+REV007,A010,U003,2026-09-05,Pending,Privileged access requires further review
+REV008,A011,U008,2026-09-05,Pending,Validate finance user's IT access
