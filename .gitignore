@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated reports
+reports/*.csv
+reports/*.json
+reports/*.html
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
